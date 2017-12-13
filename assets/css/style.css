@@ -1,0 +1,14 @@
+.vistaSplash {
+	background: #D70070 ; 
+  background: -webkit-linear-gradient(left top, #430049 , #E10073 ); 
+  background: -o-linear-gradient(bottom right, #430049 , #E10073 ); 
+  background: linear-gradient(to bottom right, #430049 , #E10073 ); 
+  height: 100vh;
+}
+
+.logoWhite {
+	width: 74%;
+ 	padding-top: 41vh;
+	padding-left: 14vh;
+}
+
