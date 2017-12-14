@@ -7,9 +7,11 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/flags/flags.min.css">
 </head>
 <body>
 <!--vista splash -->
+
 	<div class="container-fluid vistaSplash">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12">
@@ -17,9 +19,59 @@
 				 	<img src="assets/imag/logo-white.png" class="img-responsive logoWhite">
 				 </div>
 			</div>
-		</div>
+		</div> 
+	</div>
 <!--fin vista splash -->
+<!--ingreso, 1era pagina -->
+	<div class="container-fluid ingreso">
+	  <div class="row">    
+	    <div class="col-xs-12 col-sm-12 ingresoo">
+				<img src="assets/imag/lyft.jpg" class="img-responsive fondoLyft">
+				<img src="assets/imag/logo-white.png" class="img-responsive fondoLyftDos"><img src="assets/imag/lyftlyfe.png" class="img-responsive fondoLyftTres">
+				<div class="buttonIngreso">
+					<button class="waves-effect waves-light btn" id="btnSingUp">LOG IN</button>
+					<button class="waves-effect waves-light btn" id="btnSingUpDos">SING UP</button>
+				</div>
+			</div>
+		</div>			
+	</div>
+<!--fin del ingreso, 1era pagina -->
+<!-- inicio 2da pagina -->
+	<div class="container-fluid secondPage">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12">
+				<div class="encabezado text-center">
+					<h1><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					Sign Up</h1>
+					<p>Join now for free ride credit</p>
+					<hr>
+				</div>
+				<div class="input-group">
+	      	<div class="input-group-btn search-panel">
+	        	<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+	          	<span id="search_concept"><img src="assets/flags/blank.gif" class="flag flag-mx" alt="Mexico"/>
+	          	</span> <span class="caret"></span>
+	        	</button>
+	          <ul class="dropdown-menu" role="menu">
+	            <li><a href="#"><img src="assets/flags/blank.gif" class="flag flag-co" alt="Colombia"></a></li>
+	            <li><a href="#"><img src="assets/flags/blank.gif" alt="Perú" class="flag flag-pe"></a></li>
+	            <li><a href="#"><img src="assets/flags/blank.gif" alt="United States" class="flag flag-us"></a></li>
+	           </ul>
+	      	</div>
+	          <input type="hidden" name="search_param" value="all" id="search_param">
+	          <input id="number" type="text" class="form-control" name="x" placeholder="ingresa tu número">
+	        </div>
+	        <br>
+					<p>We'll send a text to verify your phone</p>
+					<button class="waves-effect waves-light btn" id="btnNext">NEXT</button>
 
+				
+			</div>
+		</div>
+	</div>
+
+
+<!-- fin 2da pagina --> 
 
 
 

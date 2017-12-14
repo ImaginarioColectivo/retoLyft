@@ -1,3 +1,7 @@
+body {
+	background-color: #4300A1;
+}
+
 .vistaSplash {
 	background: #D70070 ; 
   background: -webkit-linear-gradient(left top, #430049 , #E10073 ); 
@@ -6,9 +10,77 @@
   height: 100vh;
 }
 
+.ingreso {
+	height: 100vh;
+}
+
 .logoWhite {
 	width: 74%;
  	padding-top: 41vh;
 	padding-left: 14vh;
+}
+
+.fondoLyft {
+	background-size: cover;
+	height: 113vh;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.ingresoo {
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+}
+
+.fondoLyftDos {
+	position: relative;
+	height: 5em;
+	width: 25%;
+	left: 8em;
+	bottom: 45.8em;
+	padding: 0;
+	margin: 0;
+}
+
+.fondoLyftTres {
+	position: relative;
+	background-size: cover;
+	height: 5em;
+	width: 80%;
+	bottom: 40em;
+	left: 3em;
+}
+
+#btnSingUp {
+	margin-top: -40em;
+	margin-left: 3.5em;
+	background-color: transparent;
+	border-radius: 5px;
+	color: #fff;
+	border-color: #fff;
+	margin-right: 5em;
+
+}
+
+#btnSingUpDos {
+	margin-top: -40em;
+	background-color: transparent;
+	border-radius: 5px;
+	color: #fff;
+	border-color: #fff;
+}
+
+.glyphicon-chevron-left {
+	color: #fff;
+}
+
+#btnNext {
+	background-color: transparent;
+	border-radius: 5px;
+	color: #fff;
+	border-color: #fff;
+	margin-left: 8em;
 }
 
